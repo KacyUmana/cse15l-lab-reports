@@ -22,3 +22,24 @@ ___
 
 ## `ls`
 __Command with *no* arguments__
+
+![Image](ls-no-arg.png)
+
+Running the command `ls` with no arguments, the terminal produces a list of the contents of the current working directory. In this case the terminal produces the contents of the working directory. 
+
+__Command with a path to a *directory* argument__ 
+
+![Image](ls-dir-arg.png)
+
+The command `ls` when ran with a path to a working directory as an argument, lists the contents of the specified directory. As seen above, the terminal output lists the content of the directory /home/lecture1/messages.
+
+__Command with a path to a *file* argument__
+
+![Image](ls-file-arg.png)
+
+If you provide a file as an argument to ls, it will display information about that specific file, such as its name, size, and permissions (work on this shit)
+
+___
+
+## `cat`
+
