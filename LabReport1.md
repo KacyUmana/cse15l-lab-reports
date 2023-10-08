@@ -4,7 +4,7 @@ __Command with *no* arguments__
 
 ![Image](cd-no-arguments.png)
 
-When the command `cd` is ran with no arguments, no output is produced in the terminal. The working directory is switched to the home directory. This is because the `cd` command when used without arguments, defaults to switches the directory to the user's home directory. There was no error in the output.
+The command `cd` stands for "Change Directory," and its primary purpose is to change the current working directory within a shell or command prompt session. A working directory, also known as the current working directory (CWD), refers to the directory or current location in which a user is currently operating or executing commands. When the command `cd` is ran with no arguments, no error is produce nor is their any output in the terminal. This is because the `cd` command when used without arguments, defaults to switching the directory to the user's home directory. Your home directory is the directory associated with your user account, and it is where you start when you open a terminal. The behavior of the `cd` command without arguments is designed to provide a convenient way to return to your home directory.
 
 __Command with a path to a *directory* argument__
 
