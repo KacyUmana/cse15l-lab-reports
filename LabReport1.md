@@ -10,7 +10,7 @@ __Command with a path to a *directory* argument__
 
 ![Image](cd-directory-arg.png)
 
-When the command `cd` is used with a work directory argument, no output is produced in the terminal. However, the command will switch the current working directory to the specificed work directory. In this case, the working directory that was run with the command was `/home/lecture1/messages`. There was no error in the output.
+When the command `cd` is used with a path to a working directory argument, no output nor error is produced in the terminal. However, the command will switch the current working directory to the path of the specificed work directory provided as the argument. In this case, the working directory that was run with the command was `/home/lecture1/messages`, so command `cd` changed my current working directory which was my home directory to the path of the lecture1/messages directory as specified. Directory paths can be specified as either absolute paths or relative paths (relative to the current directory). Absolute paths describe the full path from the root directory - starting point for all directory structures and absolute paths - of the file system to the target file or directory, regardless of the current working directory. While, relative paths specify the location of a file or directory in relation to the current working directory. Both absolute and relative paths work with command `cd` to change the current directory to a specified directory. 
 
 __Command with a path to a *file* argument__
 
