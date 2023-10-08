@@ -18,3 +18,7 @@ __Command with a path to a *file* argument__
 
 When the command `cd` ia used with a path to a file as an argument, the terminal produces an output of a message that reads that the file path `/home/lecture1/messages/en-us.txt` is not a directory. Attempting to change the current directory to a file will result in an error because the command `cd` is meant for directories, not files.
 
+___
+
+## `ls`
+__Command with *no* arguments__
