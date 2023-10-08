@@ -14,4 +14,7 @@ When the command `cd` is used with a work directory argument, no output is produ
 
 __Command with a path to a *file* argument__
 
+![Image](cd-file-arg.png)
+
+When the command `cd` ia used with a path to a file as an argument, the terminal produces an output of a message that reads that the file path `/home/lecture1/messages/en-us.txt` is not a directory. Attempting to change the current directory to a file will result in an error because the command `cd` is meant for directories, not files.
 
