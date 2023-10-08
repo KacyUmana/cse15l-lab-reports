@@ -16,9 +16,11 @@ __Command with a path to a *file* argument__
 
 ![Image](cd-file-arg.png)
 
-When the command `cd` ia used with a path to a file as an argument, the terminal produces an output of a message that reads that the file path `/home/lecture1/messages/en-us.txt` is not a directory. Attempting to change the current directory to a file will result in an error because the command `cd` is meant for directories, not files.
+When the command `cd` ia used with a path to a file as an argument, the terminal produces an output of a message that reads that the file path `/home/lecture1/messages/en-us.txt` is not a directory. The command is thus invalid and will result in the terminal to produce an error message. This is because the the primary purpose of the `cd` command is to change directories, not to access files. The command `cd` expects a directory as an argument, not a file. After receiving an error message, the current working directory will also remain unchanged because the file path specified in the argument is not used to change the working directory. In summary, using the `cd` command with a path to a file as an argument is not a valid use of the command, and will result in an error. cd is intended exclusively for changing the current working directory to a different directory, and it cannot be used for individual files. 
+
 
 ___
+
 
 ## `ls`
 __Command with *no* arguments__
@@ -39,7 +41,9 @@ __Command with a path to a *file* argument__
 
 If you provide a file as an argument to ls, it will display information about that specific file, such as its name, size, and permissions (work on this shit)
 
+
 ___
+
 
 ## `cat`
 __Command with *no* arguments__
