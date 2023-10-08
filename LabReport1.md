@@ -59,4 +59,3 @@ __Command with a path to a *file* argument__
 ![Image](cat-file-arg.png)
 
 This command will display the content of the specified file, /path/to/file.txt, in the terminal.
-
