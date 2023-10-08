@@ -42,4 +42,21 @@ If you provide a file as an argument to ls, it will display information about th
 ___
 
 ## `cat`
+__Command with *no* arguments__
+
+![Image](cat-no-arg.png)
+
+ Without any arguments, cat expects input from the user, so it waits for you to enter text. It's not commonly used in this way.
+
+__Command with a path to a *directory* argument__
+
+![Image](cat-dir-arg.png)
+
+Using cat with a directory as an argument is not valid because cat is meant to display the contents of files, not directories.
+
+__Command with a path to a *file* argument__
+
+![Image](cat-file-arg.png)
+
+This command will display the content of the specified file, /path/to/file.txt, in the terminal.
 
