@@ -39,7 +39,7 @@ __Command with a path to a *file* argument__
 
 ![Image](ls-file-arg.png)
 
-If you provide a file as an argument to ls, it will display information about that specific file, such as its name, size, and permissions
+When the `ls` command is used with a path to a file as an argument, displays the path to the file in the terminal. In this case, it means that the file specified in the path exists at the provided location, but it does not provide any other detailed information about the file just simply displays the path of the file as entered. This is useful for quickly verifying whether a file exists at a specific location without displaying the file's content. The command does not change the current working directory, it remains the same before and after running the `ls` command.  
 
 
 ___
