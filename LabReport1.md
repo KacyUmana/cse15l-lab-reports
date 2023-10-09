@@ -4,7 +4,7 @@ __Command with *no* arguments__
 
 ![Image](cd-no-arguments.png)
 
-The command `cd` stands for "Change Directory," and its primary purpose is to change the current working directory within a shell or command prompt session. A working directory, also known as the current working directory (CWD), refers to the directory or current location in which a user is currently operating or executing commands. When the command `cd` is ran with no arguments, no error is produce nor is their any output in the terminal. This is because the `cd` command when used without arguments, defaults to switching the directory to the user's home directory. Your home directory is the directory associated with your user account, and it is where you start when you open a terminal. The behavior of the `cd` command without arguments is designed to provide a convenient way to return to your home directory.
+The command `cd` stands for "Change Directory," and its primary purpose is to change the current working directory within a shell or command prompt session. A working directory, also known as the current working directory (CWD), refers to the directory or current location in which a user is currently operating or executing commands. When the command `cd` is ran with no arguments, no error is produced nor is their any output in the terminal. This is because the `cd` command when used without arguments, defaults to switching the directory to the user's home directory. Your home directory is the directory associated with your user account, and it is where you start when you open a terminal. The behavior of the `cd` command without arguments is designed to provide a convenient way to return to your home directory.
 
 __Command with a path to a *directory* argument__
 
@@ -50,13 +50,13 @@ __Command with *no* arguments__
 
 ![Image](cat-no-arg.png)
 
- Without any arguments, cat expects input from the user, so it waits for you to enter text. It's not commonly used in this way.
+The `concatenate` command, also shortened to `cat`, is primarily used to concatenate - combine the content of files into a single file - and show the contents of one or more files. Without any arguments, cat expects an input from the user in the terminal and waits for you to enter text interactively to then display that input on the terminal. This is known as interactive mode and is the default when using the `cat` command with no arguments. You can type lines of text, and when you press "Enter," the cat command will display what you entered on the screen. You can continue entering text until you decide to exit the interactive mode. However, when using the `cat` command in interactive mode, the command does not create or directly change any files, it is only able to display the text you type in the terminal. The current working directory also remains unchanged.
 
 __Command with a path to a *directory* argument__
 
 ![Image](cat-dir-arg.png)
 
-Using cat with a directory as an argument is not valid because cat is meant to display the contents of files, not directories.
+When the cat command is used with a path to a directory as an argument, it is not valid and results in an error considering that the `cat` command is designed to exclusively work with the contents of files, not directories. The command recognizes that it cannot read and display the contents of a directory and thus, it produces an error message. As shown above, the error message will read that the provided arguemnt, in this case `/home/lecture1/messages` is a directory and not a file so it cannot perform its usual function of displaying file contents.
 
 __Command with a path to a *file* argument__
 
