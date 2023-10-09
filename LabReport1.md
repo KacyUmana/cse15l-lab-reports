@@ -62,4 +62,4 @@ __Command with a path to a *file* argument__
 
 ![Image](cat-file-arg.png)
 
-This command will display the content of the specified file, /path/to/file.txt, in the terminal.
+When the cat command is used with a path to a file as an argument, it reads the content of the specified file and displays that content on the terminal. In this case, I provided the path to the text file `en-us.txt` as the argument to command `cat`, that then read the text in that file and displayed the text `Hello, world!` in the terminal. The command displays the content line by line, exactly how it is with no additional formatting or content changes. The command `cat` does not change the current working directory, it remains the same before and after running the command considering that the command is only applicable for reading and displaying content of files. It operates solely on the specified files and does not involve any directory navigation.
