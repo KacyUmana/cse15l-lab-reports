@@ -39,7 +39,7 @@ __Command with a path to a *file* argument__
 
 ![Image](ls-file-arg.png)
 
-If you provide a file as an argument to ls, it will display information about that specific file, such as its name, size, and permissions (work on this shit)
+If you provide a file as an argument to ls, it will display information about that specific file, such as its name, size, and permissions
 
 
 ___
