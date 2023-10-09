@@ -27,13 +27,13 @@ __Command with *no* arguments__
 
 ![Image](ls-no-arg.png)
 
-Running the command `ls` with no arguments, the terminal produces a list of the contents of the current working directory. In this case the terminal produces the contents of the working directory. 
+The `ls` command is used to list the files and directories in a directory. The primary purpose of the `ls` command is to provide information about the contents of a directory such as file names and directory names. Running the command `ls` with no arguments will result in the terminal to default to produce a list of the contents of the user's home directory. In this case, the terminal produces the contents of my home directory which are `labreport1.java` and `lecture1`. The output of ls may be colorized to make it more visually distinguishable between directories and files, such as how `lecture1` is blue. The command `ls` provides essential information about files and directories, allowing them to be viewed and organized in directories efficiently. 
 
 __Command with a path to a *directory* argument__ 
 
 ![Image](ls-dir-arg.png)
 
-The command `ls` when ran with a path to a working directory as an argument, lists the contents of the specified directory. As seen above, the terminal output lists the content of the directory /home/lecture1/messages.
+When the `ls` command is used with a path to a directory as an argument, it lists the contents of the specified directory provided instead of the current working directory. As seen above, the command `ls` used with the path to the directory `/home/lecture1/messages` lists the content of the specified directory, which are the files `en-us.txt`, `es-mx.txt`, and `zh-cn.txt`. The ls command typically displays the list of files and directories in multiple columns, making it easier to read when there is a lot of content. The list is sorted alphabetically, with directories appearing first followed by files. In essence, the ls command when used with a path to a directory, provides a list of the contents of the specified directory, similar to when listing the contents of the current working directory. This is useful in examining the contents of a specific directory without changing the current working directory.
 
 __Command with a path to a *file* argument__
 
