@@ -56,41 +56,37 @@ If a port number is provided, it starts a server using the Server class (presuma
 
 __Methods Called__
 
-the following methods would be called:
+The following methods would be called:
 
-- StringServerMain.main: To start the server.
-- StringServer.handleRequest: To handle the incoming HTTP request and add the message "Hello" to the messageStringBuilder.
-- This code parses the provided port number from the command line arguments and starts the server with the StringServer to handle incoming requests.
+- `StringServerMain.main`: to start the server.
+- `StringServer.handleRequest`: to handle the incoming HTTP request and add the messages to the `messageStringBuilder`.
 
-The main method in the StringServerMain class would be called because you're starting the server from the command line with the provided port number.
-
-Inside the main method, this code would execute:
+The code parses the provided port number from the command line arguments and starts the server with the StringServer to handle incoming requests. The main method in the `StringServerMain` class would be called because you're starting the server from the command line with the provided port number. In the main methid, the code would execute:
 ```
 int port = Integer.parseInt(args[0]);
 Server.start(port, new StringServer());
 ```
-Once the server is started, the StringServer instance will handle incoming requests. When accessing the URL "localhost:4001/add-message?s=Hello," the handleRequest method of the StringServer class will be called with the URI object representing this URL as its argument. Within the handleRequest method, the code will check if the request path is "/add-message," and it will proceed to parse the query parameters. In this case, it will split the query parameter by '=' and check if the parameter name is "s" and if the length of the parameters array is 2. If these conditions are met, the code will append the message "Hello" and all other following messages to the messageStringBuilder, increment the num variable, and return the updated message list.
+Once the server is started, the `StringServer` will handle incoming requests. When accessing the URL "localhost:4001/add-message?s=[message]," the `handleRequest` method of the `StringServer` class will be called with the URI object representing this URL as its argument. Within the `handleRequest` method, the code will check if the request path is "/add-message," and it will proceed to parse the query parameters. In this case, it will split the query parameter by '=' and check if the parameter name is "s" and if the length of the parameters array is 2. If these conditions are met, the code will append the message and all other following messages to the `messageStringBuilder`, increment the num variable, and return the updated message list.
 
 
 __Relevant Arguments and Fields__
 
-StringServerMain.main(String[] args):
+_StringServerMain.main(String[] args)_:
 
-Arguments: args is an array of command-line arguments.
-Relevant Values:
-args[0]: The first element of the args array contains the port number provided as a command-line argument.
+1. Arguments: args is an array of command-line arguments.
+2. Relevant Values: args[0]: The first element of the args array contains the port number provided as a command-line argument.
 
-StringServer.handleRequest(URI url):
+_StringServer.handleRequest(URI url)_:
 
-Argument: url is a URI object representing the incoming HTTP request URL.
-Relevant Values:
-url.getPath(): This method retrieves the path component of the URL. In this case, it will be "/add-message".
-url.getQuery(): This method retrieves the query component of the URL. In this case, it will be "s=Hello".
+1. Argument: url is a URI object representing the incoming HTTP request URL.
+2. Relevant Values:
+    - url.getPath(): This method retrieves the path component of the URL. In this case, it will be "/add-message".
+    - url.getQuery(): This method retrieves the query component of the URL. In this case, it will be "s=Hello".
 
-StringServer Fields:
+_StringServer Fields_:
 
-int num: An integer field used to keep track of the message number.
-StringBuilder messageStringBuilder: A StringBuilder used to store and construct the response message
+1. int num: An integer field used to keep track of the message number.
+2. StringBuilder messageStringBuilder: A StringBuilder used to store and construct the response message
 
 
 __Changes in Values of Relevant Fields__
