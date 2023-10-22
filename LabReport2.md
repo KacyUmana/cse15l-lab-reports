@@ -95,9 +95,8 @@ StringBuilder messageStringBuilder: A StringBuilder used to store and construct 
 
 __Changes in Values of Relevant Fields__
 
-int num: The num field is used to keep track of the message number. In this specific request, since a new message is being added, the num field would be incremented by 1. If the initial value of num was 1, after processing this request, num would become 2.
+In this specific request, the num field, `int num`, is used to keep track of the message number. In this case, since a new message is being added, the initial value of num of 1 is processed along with the first parameter and adding a new message - the num field would be incremented by 1 and num would become 2. This StringBuilder, `StringBuilder messageStringBuilder` is used to store and construct the response message. When you add a new message to it, it appends the message and increments the message number. In this specific request, the message "Hello" would be appended, and the next message "How are you" is also appended.
 
-StringBuilder messageStringBuilder: This StringBuilder is used to store and construct the response message. When you add a new message to it, it appends the message and increments the message number. In this specific request, the message "Hello" would be appended, and the response message would look something like "1. Hello\n" (assuming it's the first message added).
 
 ![Image](StringServerSS2.png)
 __Methods Called__
@@ -133,11 +132,7 @@ StringBuilder messageStringBuilder: A StringBuilder used to store and construct 
 
 __Changes in Values of Relevant Fields__
 
-In the specific request "localhost:4001/add-message?s=" with no message provided in the query parameter, the values of the relevant fields in the StringServer class do not change. Here's why:
-
-int num: The num field is used to keep track of the message number. In this specific request, since no message is provided, there is no new message to add, and as a result, the num field remains unchanged.
-
-StringBuilder messageStringBuilder: This StringBuilder is used to store and construct the response message, and in this request, no new message is appended because the query parameter "s" is empty. As a result, the messageStringBuilder remains unchanged, and the response message would still be "Add message!" without any changes to the message list.
+In the specific request "localhost:4001/add-message?s=" with no message provided in the query parameter, the values of the relevant fields in the StringServer class do not change. For `int num` the num field is used to keep track of the message number. In this specific request, since no message is provided, there is no new message to add, and as a result, the num field remains unchanged. Similarly, `StringBuilder messageStringBuilder` is used to store and construct the response message, and in this request, no new message is appended because the query parameter "s" is empty. Consequently, the `messageStringBuilder` remains unchanged, and the response message would be "Add message!" without any changes to the message list.
 
 ---
 ## Part 2: `ls`
