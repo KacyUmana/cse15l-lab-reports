@@ -114,6 +114,7 @@ int num: The num field is used to keep track of the message number. In this spec
 
 StringBuilder messageStringBuilder: This StringBuilder is used to store and construct the response message, and in this request, no new message is appended because the query parameter "s" is empty. As a result, the messageStringBuilder remains unchanged, and the response message would still be "Add message!" without any changes to the message list.
 
-...
+---
+## Part 2: `ls`
 
 
