@@ -127,4 +127,4 @@ __No Password Required__
 
 ---
 ## Part 3: Learned from Lab
-
+In Lab 2, something I learned that I previously did not know were of the `ssh` command. I knew of others such as `git clone` and `cat`. I've never really had much experience in working with remote servers; however, during this lab I was able to learn what the `ssh` command is and how to use it. I now know that `ssh` allows for remote login and remote execution of commands on a server or another computer over a network. Moreover, it is commonly used for securely accessing and managing remote systems, it encrypts data and provides authentication to ensure secure communication. 
