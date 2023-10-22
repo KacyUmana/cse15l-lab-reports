@@ -116,5 +116,15 @@ StringBuilder messageStringBuilder: This StringBuilder is used to store and cons
 
 ---
 ## Part 2: `ls`
+__Private Key Path__
+![Image private key](privatekey.png)
 
+__Public Key Path__
+![Image public key](publickey.png)
+
+__No Password Required__
+![Image no password](nopassword.png)
+
+---
+## Part 3: Learned from Lab
 
