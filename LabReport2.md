@@ -49,8 +49,11 @@ The StringServerMain class serves as the entry point for the program. It expects
 
 If a port number is provided, it starts a server using the Server class (presumably provided elsewhere in your code) and passes an instance of the StringServer class to handle incoming requests.
 
-__Methods Called__
+
 ![Image](StringServerSS1.png)
+
+__Methods Called__
+
 the following methods would be called:
 
 - StringServerMain.main: To start the server.
@@ -67,6 +70,7 @@ Server.start(port, new StringServer());
 Once the server is started, the StringServer instance will handle incoming requests. When accessing the URL "localhost:4001/add-message?s=Hello," the handleRequest method of the StringServer class will be called with the URI object representing this URL as its argument. Within the handleRequest method, the code will check if the request path is "/add-message," and it will proceed to parse the query parameters. In this case, it will split the query parameter by '=' and check if the parameter name is "s" and if the length of the parameters array is 2. If these conditions are met, the code will append the message "Hello" and all other following messages to the messageStringBuilder, increment the num variable, and return the updated message list.
 
 __Relevant Arguments and Fields__
+
 StringServerMain.main(String[] args):
 
 Arguments: args is an array of command-line arguments.
@@ -86,12 +90,14 @@ int num: An integer field used to keep track of the message number.
 StringBuilder messageStringBuilder: A StringBuilder used to store and construct the response message
 
 __Changes in Values of Relevant Fields__
+
 int num: The num field is used to keep track of the message number. In this specific request, since a new message is being added, the num field would be incremented by 1. If the initial value of num was 1, after processing this request, num would become 2.
 
 StringBuilder messageStringBuilder: This StringBuilder is used to store and construct the response message. When you add a new message to it, it appends the message and increments the message number. In this specific request, the message "Hello" would be appended, and the response message would look something like "1. Hello\n" (assuming it's the first message added).
 
 ![Image](StringServerSS2.png)
 __Methods Called__
+
 The StringServer class's handleRequest method would be called to handle the incoming request. The URI object representing the URL would be passed as an argument to this method.
 Here's what would happen in the handleRequest method:
 
@@ -106,6 +112,7 @@ In this case, the condition parameters[0].equals("s") would evaluate to true bec
 Since the query parameter "s" is present but has no value, the code would not append anything to the messageStringBuilder. Instead, it would return the response "Add message!" as specified in the code.
 
 __Relevant Arguments and Fields__
+
 StringServer.handleRequest(URI url):
 
 Argument: url is a URI object representing the incoming HTTP request URL.
@@ -119,6 +126,7 @@ int num: An integer field used to keep track of the message number. This field w
 StringBuilder messageStringBuilder: A StringBuilder used to store and construct the response message. In this specific request, it wouldn't change because no message is provided, so nothing is appended to the messageStringBuilder.
 
 __Changes in Values of Relevant Fields__
+
 In the specific request "localhost:4001/add-message?s=" with no message provided in the query parameter, the values of the relevant fields in the StringServer class do not change. Here's why:
 
 int num: The num field is used to keep track of the message number. In this specific request, since no message is provided, there is no new message to add, and as a result, the num field remains unchanged.
