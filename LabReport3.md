@@ -412,3 +412,50 @@ technical/biomed/1471-2202-3-16.txt
 technical/biomed/1471-2407-3-16.txt
 ```
 The command `find . -regex` searches for files within the current directory using a regular expression pattern to match filenames, enabling complex and specific pattern-based searches to precisely locate files that match the defined criteria. This is useful for performing advanced and customizable file seraches, allowing for seraches that specify certain patterns for file names (e.g: files with a certain numerical range or files that begin/end with a certain patterm), providing greater flexibility in file selection during seraches.
+
+## Sources 
+__ChatGPT__
+Prompt: List of find command-line options
+Output:
+The find command in Unix-like operating systems is a powerful tool used to search for files and directories in a directory hierarchy. Here is a list of some commonly used options with the find command:
+
+-name: Searches for files or directories based on their name.
+
+Example: find /path/to/search -name "file.txt"
+-type: Filters based on the type of the file (e.g., directories, regular files, symbolic links).
+
+Example: find /path/to/search -type f (for regular files)
+-iname: Case-insensitive search by name.
+
+Example: find /path/to/search -iname "file.txt"
+-user: Searches for files owned by a specific user.
+
+Example: find /path/to/search -user username
+-group: Searches for files belonging to a specific group.
+
+Example: find /path/to/search -group groupname
+-size: Allows searching based on file size.
+
+Example: find /path/to/search -size +1M (for files larger than 1 megabyte)
+-mtime, -atime, -ctime: Search files based on modification, access, or change time.
+
+Example: find /path/to/search -mtime -7 (for files modified within the last 7 days)
+-exec: Executes a command on the found files.
+
+Example: find /path/to/search -name "*.txt" -exec ls -l {} \;
+-maxdepth and -mindepth: Restricts the depth of directory traversal.
+
+Example: find /path/to/search -maxdepth 2 (limits the search to a depth of 2 directories)
+-delete: Deletes the found files.
+
+Example: find /path/to/search -name "file.txt" -delete
+-print: Prints the found files to the standard output.
+
+Example: find /path/to/search -name "file.txt" -print
+-regex: Search files matching a regular expression.
+
+Example: find /path/to/search -regex ".*\(\.txt\|\.doc\)"
+- !: Perform a search exclusing certain criteria or patterms within a directory
+
+Example: find /path/to/search ! -name "*.txt"
+These additional options expand the functionality and control offered by the `find` command in Unix-like systems, providing various ways to refine searches, perform actions on the found files, and handle different scenarios effectively.Always refer to the `man find` command for more comprehensive information and usage examples.
