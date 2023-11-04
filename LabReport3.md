@@ -46,6 +46,7 @@ static int[] reversed(int[] arr) {
     return newArray;
   }
 ```
+In the before code, there's an issue with the assignment of values in the `newArray` inside the `reversed` method. The correct values from the original array`arr` should be copied into `newArray` in reverse order. It is assigning values incorrectly, leading to a failure in producing the reversed array. In the corrected code, the values from the input array `arr` are appropriately assigned to the `newArray` in reverse order. This is achieved by iterating through the original array and assigning elements to the new array in a reversed sequence (`arr.length - i - 1` retrieves the elements in reverse order).In the before code, the assignment was flawed, causing incorrect or uninitialized values to be stored in the `newArray`. In the corrected code, a new array of the same size as the original array is correctly initialized to hold the reversed elements, ensuring the correct assignment of reversed elements. 
 
 ## Part 2: `find` Command
 `find . -mtime`
