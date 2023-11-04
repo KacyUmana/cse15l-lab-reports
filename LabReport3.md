@@ -598,5 +598,23 @@ technical/911report/chapter-8.txt
 ```
 ```
 # code for example 8
-
+owner@Owners-MacBook-Pro docsearch % find technical/biomed -regex ".*16\.txt$"
+technical/biomed/1471-2121-3-16.txt
+technical/biomed/1471-2091-2-16.txt
+technical/biomed/1471-2156-3-16.txt
+technical/biomed/1471-2202-4-16.txt
+technical/biomed/1471-2458-2-16.txt
+technical/biomed/gb-2003-4-2-r16.txt
+technical/biomed/1471-2164-3-16.txt
+technical/biomed/1472-6793-2-16.txt
+technical/biomed/1471-2407-2-16.txt
+technical/biomed/1471-2180-1-16.txt
+technical/biomed/1471-2202-2-16.txt
+technical/biomed/1471-2172-3-16.txt
+technical/biomed/1471-2105-3-16.txt
+technical/biomed/1471-2164-4-16.txt
+technical/biomed/1471-2091-3-16.txt
+technical/biomed/1471-2180-2-16.txt
+technical/biomed/1471-2202-3-16.txt
+technical/biomed/1471-2407-3-16.txt
 ```
