@@ -520,16 +520,55 @@ technical/plos/pmed.0020242.txt
 ```
 ```
 # code for example 2
-owner@Owners-MacBook-Pro docsearch % find technical/plos -mtime -3  
+owner@Owners-MacBook-Pro docsearch % find technical/biomed -mtime -3  
 owner@Owners-MacBook-Pro docsearch % 
 ```
 
-`find . -exec` 
-
-
+`find . !`
+```
+# code for example 3
+owner@Owners-MacBook-Pro docsearch % find technical/911report ! -name "preface.txt"
+technical/911report
+technical/911report/chapter-13.4.txt
+technical/911report/chapter-13.5.txt
+technical/911report/chapter-13.1.txt
+technical/911report/chapter-13.2.txt
+technical/911report/chapter-13.3.txt
+technical/911report/chapter-3.txt
+technical/911report/chapter-2.txt
+technical/911report/chapter-1.txt
+technical/911report/chapter-5.txt
+technical/911report/chapter-6.txt
+technical/911report/chapter-7.txt
+technical/911report/chapter-9.txt
+technical/911report/chapter-8.txt
+technical/911report/chapter-12.txt
+technical/911report/chapter-10.txt
+technical/911report/chapter-11.txt
+```
+```
+# code for example 4
+owner@Owners-MacBook-Pro docsearch % find technical/911report ! -name "chapter-*.txt"
+technical/911report
+technical/911report/preface.txt
+```
 
 `find . -size`
+```
+# code for example 5
 
+```
+```
+# code for example 6
 
+```
 
 `find . -printf`
+```
+# code for example 7
+
+```
+```
+# code for example 8
+
+```
