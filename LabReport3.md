@@ -556,11 +556,33 @@ technical/911report/preface.txt
 `find . -size`
 ```
 # code for example 5
-
+owner@Owners-MacBook-Pro docsearch % find technical/biomed -size +70kb
+technical/biomed/gb-2002-3-7-research0036.txt
+technical/biomed/1472-6904-2-5.txt
+technical/biomed/gb-2002-3-11-research0059.txt
+technical/biomed/1472-6807-3-1.txt
+technical/biomed/gb-2002-3-12-research0086.txt
+technical/biomed/gb-2002-3-12-research0083.txt
+technical/biomed/1476-511X-1-2.txt
+technical/biomed/1471-2105-3-18.txt
+technical/biomed/1471-2202-3-1.txt
+technical/biomed/1472-6882-1-10.txt
+technical/biomed/1471-2105-3-2.txt
+technical/biomed/1476-069X-2-9.txt
 ```
 ```
 # code for example 6
-
+owner@Owners-MacBook-Pro docsearch % find technical/plos -size +30kb
+technical/plos/pmed.0020059.txt
+technical/plos/pmed.0020073.txt
+technical/plos/pmed.0020249.txt
+technical/plos/pmed.0020103.txt
+technical/plos/pmed.0010028.txt
+technical/plos/pmed.0020018.txt
+technical/plos/pmed.0020182.txt
+technical/plos/pmed.0020246.txt
+technical/plos/pmed.0020045.txt
+technical/plos/pmed.0010036.txt
 ```
 
 `find . -printf`
