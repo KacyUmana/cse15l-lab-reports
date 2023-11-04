@@ -458,7 +458,8 @@ Example: find /path/to/search -name "file.txt" -print
 -regex: Search files matching a regular expression.
 
 Example: find /path/to/search -regex ".*\(\.txt\|\.doc\)"
-- !: Perform a search exclusing certain criteria or patterms within a directory
+-!: Perform a search exclusing certain criteria or patterms within a directory
 
 Example: find /path/to/search ! -name "*.txt"
+
 These additional options expand the functionality and control offered by the `find` command in Unix-like systems, providing various ways to refine searches, perform actions on the found files, and handle different scenarios effectively.Always refer to the `man find` command for more comprehensive information and usage examples.
