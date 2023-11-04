@@ -45,7 +45,7 @@ static int[] reversed(int[] arr) {
     }
     return newArray;
   }
-
+```
 
 ## Part 2: `find` Command
 `find . -mtime`
