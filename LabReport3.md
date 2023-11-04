@@ -21,6 +21,9 @@ __Non-failure Inducing Input__
   }
 ```
 
+__Symptom__
+
+
 __Before Code Change__
 ```
 # buggy code
