@@ -1,6 +1,47 @@
 # Lab Report 3
 ## Part 1: Bugs
 
+__Failure Inducing Input__
+```
+# test code that produces a failure
+@Test
+  public void testReversed2() {
+    int[] input1 = {1, 2, 3, 4};
+    assertArrayEquals(new int[]{4, 3, 2, 1}, ArrayExamples.reversed(input1));
+  }
+```
+
+__Non-failure Inducing Input__
+```
+# test code that doesn't produce a failure
+@Test
+  public void testReversed3() {
+    int[] input1 = {1};
+    assertArrayEquals(new int[]{1}, ArrayExamples.reversed(input1));
+  }
+```
+
+__Before Code Change__
+```
+# buggy code
+static int[] reversed(int[] arr) {
+  int[] newArray = new int[arr.length];
+  for(int i = 0; i < arr.length; i += 1) {
+    arr[i] = newArray[arr.length - i - 1];
+  }
+  return arr;
+}
+```
+__After Code Change__
+```
+# fixed code
+static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      newArray[i] = arr[arr.length - i - 1];
+    }
+    return newArray;
+  }
 
 
 ## Part 2: `find` Command
