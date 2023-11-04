@@ -414,8 +414,11 @@ technical/biomed/1471-2407-3-16.txt
 The command `find . -regex` searches for files within the current directory using a regular expression pattern to match filenames, enabling complex and specific pattern-based searches to precisely locate files that match the defined criteria. This is useful for performing advanced and customizable file seraches, allowing for seraches that specify certain patterns for file names (e.g: files with a certain numerical range or files that begin/end with a certain patterm), providing greater flexibility in file selection during seraches.
 
 ## Sources 
+
 __ChatGPT__
+
 Prompt: List of find command-line options
+
 Output:
 The find command in Unix-like operating systems is a powerful tool used to search for files and directories in a directory hierarchy. Here is a list of some commonly used options with the find command:
 
