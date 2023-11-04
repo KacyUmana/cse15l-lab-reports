@@ -585,10 +585,16 @@ technical/plos/pmed.0020045.txt
 technical/plos/pmed.0010036.txt
 ```
 
-`find . -printf`
+`find . -regex`
 ```
 # code for example 7
-
+owner@Owners-MacBook-Pro docsearch % find technical/911report -regex ".*/chapter-[2-8].txt"
+technical/911report/chapter-3.txt
+technical/911report/chapter-2.txt
+technical/911report/chapter-5.txt
+technical/911report/chapter-6.txt
+technical/911report/chapter-7.txt
+technical/911report/chapter-8.txt
 ```
 ```
 # code for example 8
