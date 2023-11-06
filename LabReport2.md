@@ -127,13 +127,14 @@ In the specific request "localhost:4001/add-message?s=" with no message provided
 ---
 ## Part 2: `ls`
 __Private Key Path__
-![Image private key](privatekey.png)
+![Image private key](privatekeypath.png)
 
 __Public Key Path__
-![Image public key](publickey.png)
+![Image public key](publickeypath.png)
 
 __No Password Required__
-![Image no password](nopassword.png)
+![Image no password](terminalinteraction1.png)
+![Image no password](terminalinteraction2.png)
 
 ---
 ## Part 3: Learned from Lab
