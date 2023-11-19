@@ -17,7 +17,7 @@ I once again used `Ctrl R` to search through my command history and first typed 
 
 Keys Pressed: `cd l` `<tab>` `<enter>` `Ctrl R` `ba` `<enter>`
 
-In order to be able to run the failing tests I first need to `cd` into the directory that the `test.sh` file resides in. I typed out the command `cd` and then typed out the first letter of the directory `l` and pressed `<tab>` which autocompletes to the name of the directory `lab7`. I then pressed `<enter>` to execute to command and change into the directory `lab7`. I pressed `Ctrl R` 
+In order to be able to run the failing tests I first need to `cd` into the directory that the `test.sh` file resides in. I typed out the command `cd` and then typed out the first letter of the directory `l` and pressed `<tab>` which autocompletes to the name of the directory `lab7`. I then pressed `<enter>` to execute to command and change into the directory `lab7`. I pressed `Ctrl R` to search for the desired command that runs the tests `bash test.sh`, I typed the letters of `bash` until it autocompleted to the correct command which was `ba` and finally pressed `<enter>` to execute the command to ensure that the tests run successfully. 
 
 ## Fix Failing Test
 ![Edit Fix Image](edit-fix.png)
