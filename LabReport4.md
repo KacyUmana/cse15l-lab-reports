@@ -27,7 +27,7 @@ Keyes Pressed: `vim L` `<tab>` `.java` `<enter>` `<j>` x43 `<l>` x11 `x` `<enter
 
 Keys Pressed: `<up>` `<up>` `<enter>`
 
-The `bash test.sh` command was 2 up the search history, thus `<up>` was pressed twice to access it and <enter> was pressed to execute the command in order to run the tests again to ensure they are successful.
+The `bash test.sh` command was 2 up the search history, thus `<up>` was pressed twice to access it and `<enter>` was pressed to execute the command in order to run the tests again to ensure they are successful.
 
 ## Commit and Push Changes
 ![Commit Push Image](commit-push.png)
