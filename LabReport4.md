@@ -38,4 +38,4 @@ The `bash test.sh` command was 2 up the search history, thus `<up>` was pressed 
 
 Keys Pressed: `Ctrl R` `ad` `<enter>` `Ctrl R` `com` `<enter>` `Ctrl R` `pu` `<enter>`
 
-In order to be able to commit the changes that were made to the `ListExamples.java` file 
+In order to be able to commit the changes that were made to the `ListExamples.java` file, we first need to stage changes for the next commit using the command `git add`. I pressed `Ctrl R` and typed out `ad` to search for the correct command, I then pressed `<enter>` to execute the command. Since the changes are ready to be commited, I pressed `Ctrl R` and typed out `comm` until the the command is autocompleted to `git commit m- "Changed index1 to index2"`, where `git commit` command records changes made and `-m` provides the commit message directly in the command line. I then pressed `<enter>` to execute the command.  
