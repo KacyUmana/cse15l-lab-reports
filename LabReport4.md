@@ -37,3 +37,5 @@ The `bash test.sh` command was 2 up the search history, thus `<up>` was pressed 
 ![Commit Push Image](commit-push.png)
 
 Keys Pressed: `Ctrl R` `ad` `<enter>` `Ctrl R` `com` `<enter>` `Ctrl R` `pu` `<enter>`
+
+In order to be able to commit the changes that were made to the `ListExamples.java` file 
