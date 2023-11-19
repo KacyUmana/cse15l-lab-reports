@@ -2,7 +2,7 @@
 ## Log in to ieng6
 ![Log in Image](log-in-ieng6.png)
 
-Keys Pressed: Ctrl 'R' type 's' <enter>
+Keys Pressed: Ctrl 'R' type 's'<enter>
 
 ## Clone Fork to Repository
 ![Clone Fork Rep Image](clone-fork.png)
