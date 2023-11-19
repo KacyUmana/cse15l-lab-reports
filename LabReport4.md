@@ -3,7 +3,7 @@
 ![Log in Image](log-in-ieng6.png)
 
 Keys Pressed: `Ctrl R` `s` `<enter>`
-In order to save time from writing out the whole command for logging in to ieng6, I used `Ctrl R` and typed the beginning letter to the command `s` which autocompleted to `ssh cs15fa23fd@ieng6.ucsd.edu`. I then pressed `<enter>` to execute the command and log in to ieng6.
+In order to save time from writing out the whole command for logging in to ieng6, I used `Ctrl R` to search through my command history and typed the beginning letter to the command `s` which autocompleted to `ssh cs15fa23fd@ieng6.ucsd.edu`. I then pressed `<enter>` to execute the command and log in to ieng6.
 
 ## Clone Fork to Repository
 ![Clone Fork Rep Image](clone-fork.png)
