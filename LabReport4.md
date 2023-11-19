@@ -22,9 +22,9 @@ In order to be able to run the failing tests I first need to `cd` into the direc
 ## Fix Failing Test
 ![Edit Fix Image](edit-fix.png)
 
-Keys Pressed: `vim L` `<tab>` `.java` `<enter>` `j` x43 `l` x11 `x` `<enter>` `<esc>` `i` `2` `<enter>` `<esc>` `<esc>` `:wq` `<enter>`
+Keys Pressed: `vim L` `<tab>` `.java` `<enter>` `j` x43 `l` x11 `x` `i` `2` `<esc>` `:wq` `<enter>`
 
-To edit the `ListExamples.java` file and fix the mistake causing the tests to fail, I typed the command `vim` followed by the first letter of the desired file `L` then pressed `<tab>` so that it autocompletes to `ListExamples`. I manually typed the rest of the file name `.java` and pressed `<enter>` to execute the command. Once the file loaded on vim, I pressed `j` 43 times for the cursor to land on the line that needs to be fixed. I then pressed `l` 11 times to move the cursor to the left until it lands on the character I wish to delete which is the `1` in `index1`. I pressed `x` to delete the character `1` and pressed `<enter>` to execute the command. I pressed `esc` to exit .. mode and return back to normal mode. I pressed `i` and pressed `2` to insert the 2 at the end of `index` so that it becomes `index2` and pressed `<esc>` to exit insert mode and return to normal mode. Finally, I pressed `:wq` to exit vim and save the changes made to the file. 
+To edit the `ListExamples.java` file and fix the mistake causing the tests to fail, I typed the command `vim` followed by the first letter of the desired file `L` then pressed `<tab>` so that it autocompletes to `ListExamples`. I manually typed the rest of the file name `.java` and pressed `<enter>` to execute the command. Once the file loaded on vim, I pressed `j` 43 times for the cursor to land on the line that needs to be fixed. I then pressed `l` 11 times to move the cursor to the left until it lands on the character I wish to delete which is the `1` in `index1`. I pressed `x` to delete the character `1` and pressed `i` and `2` to insert the 2 at the end of `index` so that it becomes `index2` and pressed `<esc>` to exit insert mode and return to normal mode. Finally, I pressed `:wq` to exit vim and save the changes made to the file and pressed `<enter>` to execute the command. 
 
 ## Run Succeeding Tests
 ![Succeeding Tests Image](succeed-tests.png)
