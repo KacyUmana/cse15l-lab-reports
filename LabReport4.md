@@ -22,9 +22,9 @@ Keyes Pressed: `vim L` `<tab>` `.java` `<enter>` `<j>` x43 `<l>` x11 `x` `<enter
 ## Run Succeeding Tests
 ![Succeeding Tests Image](succeed-tests.png)
 
-Keys Pressed: <up> <up> <enter>
+Keys Pressed: `<up>` `<up>` `<enter>`
 
 ## Commit and Push Changes
 ![Commit Push Image](commit-push.png)
 
-Keys Pressed: Ctrl 'R' type 'ad' <enter>, Ctrl 'R' type 'com' <enter>, Ctrl 'R' type 'pu' <enter>
+Keys Pressed: `Ctrl R` `ad` `<enter>` `Ctrl R` `com` `<enter>` `Ctrl R` `pu` `<enter>`
