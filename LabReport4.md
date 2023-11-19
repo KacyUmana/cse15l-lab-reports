@@ -10,6 +10,7 @@ In order to save time from writing out the whole command for logging in to ieng6
 ![Clone Fork Rep Image](clone-fork.png)
 
 Keys Pressed: `Ctrl R` `cl` `<enter>`
+I once again used `Ctrl R` to search through my command history and first typed out `c` but when the autocomplete command did not match the desired command that clones my fork of the lab 7 repository, I continued by typing `cl` which autocompleted to the correct command `git clone git@github.com: KacyUmana/lab7.git`. I then pressed `<enter>` to execute the command.
 
 ## Run Failing Tests
 ![Fail Tests Image](fail-tests.png)
