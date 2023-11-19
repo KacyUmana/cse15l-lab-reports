@@ -7,17 +7,17 @@ Keys Pressed: `Ctrl R` `s` `<enter>`
 ## Clone Fork to Repository
 ![Clone Fork Rep Image](clone-fork.png)
 
-Keys Pressed: Ctrl 'R' type 'cl' <enter>
+Keys Pressed: `Ctrl R` `cl` `<enter>`
 
 ## Run Failing Tests
 ![Fail Tests Image](fail-tests.png)
 
-Keys Pressed: type 'cd l' <tab> <enter>, Ctrl 'R' type 'ba' <enter>
+Keys Pressed: `cd l` `<tab>` `<enter>` `Ctrl R` `ba` `<enter>`
 
 ## Fix Failing Test
 ![Edit Fix Image](edit-fix.png)
 
-Keyes Pressed: vim 'L' <tab> type '.java' <enter>, <j> x43, <l> x11, 'x' <enter> <esc>, 'i' '2' <enter> <esc>, <esc>, ':wq' <enter>
+Keyes Pressed: `vim L` `<tab>` `.java` `<enter>` `<j>` x43 `<l>` x11 `x` `<enter>` `<esc>` `i` `2` `<enter>` `<esc>` `<esc>` `:wq` `<enter>`
 
 ## Run Succeeding Tests
 ![Succeeding Tests Image](succeed-tests.png)
