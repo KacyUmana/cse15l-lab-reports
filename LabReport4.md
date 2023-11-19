@@ -4,7 +4,7 @@
 
 Keys Pressed: `Ctrl R` `s` `<enter>`
 
-In order to save time from writing out the whole command for logging in to ieng6, I used `Ctrl R` to search through my command history and typed the beginning letter to the command `s` which autocompleted to `ssh cs15fa23fd@ieng6.ucsd.edu`. I then pressed `<enter>` to execute the command and log in to ieng6.
+To save time from writing out the whole command for logging in to ieng6, I used `Ctrl R` to search through my command history and typed the beginning letter to the command `s` which autocompleted to `ssh cs15fa23fd@ieng6.ucsd.edu`. I then pressed `<enter>` to execute the command and log in to ieng6.
 
 ## Clone Fork to Repository
 ![Clone Fork Rep Image](clone-fork.png)
@@ -16,6 +16,8 @@ I once again used `Ctrl R` to search through my command history and first typed 
 ![Fail Tests Image](fail-tests.png)
 
 Keys Pressed: `cd l` `<tab>` `<enter>` `Ctrl R` `ba` `<enter>`
+
+In order to be able to run the failing tests I first need to `cd` into the directory that the `test.sh` file resides in. I typed out the command `cd` and then typed out the first letter of the directory `l` and pressed `<tab>` which autocompletes to the name of the directory `lab7`. I then pressed `<enter>` to execute to command and change into the directory `lab7`. I pressed `Ctrl R` 
 
 ## Fix Failing Test
 ![Edit Fix Image](edit-fix.png)
