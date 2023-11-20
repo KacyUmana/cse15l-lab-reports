@@ -22,7 +22,7 @@ __Non-failure Inducing Input__
 ```
 
 __Symptom__
-![Image](symptom.png)
+![Image](symptoms-2.png)
 
 __Before Code Change__
 ```
