@@ -16,8 +16,8 @@ __Non-failure Inducing Input__
 # test code that doesn't produce a failure
 @Test
   public void testReversed3() {
-    int[] input1 = {1};
-    assertArrayEquals(new int[]{1}, ArrayExamples.reversed(input1));
+    int[] input1 = { };
+    assertArrayEquals(new int[]{ }, ArrayExamples.reversed(input1));
   }
 ```
 
