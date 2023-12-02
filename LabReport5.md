@@ -10,4 +10,6 @@ Hi! I'm having some trouble in getting my tests to pass for the file ListExample
 
 __TA__
 
+Carefully look at the output in your terminal when you ran your tests - specifically what was expected versus what the result actually was. Is there anything in your merge function code that might've led to a disruption in how the list may be sorted?
+
 ## Part 2: Reflection
