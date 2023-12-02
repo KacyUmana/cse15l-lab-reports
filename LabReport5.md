@@ -25,11 +25,13 @@ ___Student___
 __Setup Information__
 
 File(s):
+
 - ListExamples.java
 - ListExamplesTests.java
 - test.sh
 
 Directory structure: 
+
 .
 ├── ListExamples.java
 ├── ListExamplesTests.java
