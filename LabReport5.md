@@ -10,11 +10,15 @@ ___Student___
 
 ___TA___
 
-> Carefully look at the output in your terminal when you ran your tests - specifically what was expected versus what the result actually was. Is there anything in your merge function code that might've led to a disruption in how the list may be sorted?
+> Carefully look at the error output in your terminal when you ran your tests - specifically what was expected versus what the result actually was. Is there anything in your merge function code that might've led to a disruption in how the list may be sorted?
 
-__Student__
+___Student___
 
-> ![Fix Bug Image](lab5-fix.png)
+> After closely analyzing the output, for `testMerge1()` the first element of the merged list should've been the first element ("a") from `list2` but instead it was the first element from `list1` ("x") and similarily for `testMerge2()`, the failure resulted from a difference in the fourth element of the merged list that should've been the first element ("c") from `list2` but instead it was second element of `list2` ("d"). This caused me to believe that the bug skips the next element in `list2` by incrementing `index2` in `merge()`. This led to missing elements from `list2` in the final merged list. I was then able fix the bug in `merge()` so that all elements from `list2` are in the final merged list and all my tests were able to pass!
+> 
+>  ![Fix Bug Image](lab5-fix.png)
+
+
 
 ---
 
