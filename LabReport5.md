@@ -24,6 +24,22 @@ ___Student___
 
 __Setup Information__
 
+File(s):
+- ListExamples.java
+- ListExamplesTests.java
+- test.sh
+
+Directory structure: 
+.
+├── ListExamples.java
+├── ListExamplesTests.java
+├── lib
+│   ├── hamcrest-core-1.3.jar
+│   └── junit-4.13.2.jar
+└── test.sh
+
+Contents of each file:
+
 ```
 # ListExamples.java file before fix
 import java.util.ArrayList;
@@ -108,6 +124,11 @@ public class ListExamplesTests {
 javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
 java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests
 ```
+
+Command line that triggered bug: `bash test.sh`
+
+Bug fix: 
+
 ---
 
 ## Part 2: Reflection
