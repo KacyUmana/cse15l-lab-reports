@@ -34,7 +34,6 @@ Directory structure:
 
 ```
 /home/linux/ieng6/cs15lfa23/cs15lfa23fd/lab7
-
 ├── ListExamples.java
 ├── ListExamplesTests.java
 ├── lib
