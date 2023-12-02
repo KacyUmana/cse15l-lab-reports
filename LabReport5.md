@@ -131,7 +131,7 @@ java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnit
 
 Command line that triggered bug: `bash test.sh`
 
-Bug fix: 
+Bug fix: The elements in `list2` need to be added to the result when the corresponding index (`index2`) is incremented. To ensure this, the code line `result.add(list2.get(index2))` needs to be included inside the `else` block code before the line `index2 += 1` in order to add the elements from `list2` to the `result` list so that the merged list is sorted in ascending order. The `index2` will be incremented to move to the next element in `list2`. The merging process will continue until all elements from both lists are added to the `result` list in sorted order.   
 
 ---
 
