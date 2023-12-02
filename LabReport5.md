@@ -32,6 +32,7 @@ File(s):
 
 Directory structure: 
 
+```
 /home/linux/ieng6/cs15lfa23/cs15lfa23fd/lab7
 
 ├── ListExamples.java
@@ -40,6 +41,7 @@ Directory structure:
 │   ├── hamcrest-core-1.3.jar
 │   └── junit-4.13.2.jar
 └── test.sh
+```
 
 Contents of each file:
 
