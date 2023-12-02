@@ -12,12 +12,11 @@ __TA__
 
 Carefully look at the output in your terminal when you ran your tests - specifically what was expected versus what the result actually was. Is there anything in your merge function code that might've led to a disruption in how the list may be sorted?
 
+__Student__
 
+![Fix Bug Image](lab5-fix.png)
 
-
-
-
-
+__Setup Information__
 
 ```
 # ListExamples.java file before fix
