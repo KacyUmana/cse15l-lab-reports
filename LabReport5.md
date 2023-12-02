@@ -4,7 +4,7 @@
 
 ___Student___
 
-> Hi! I'm having some trouble in getting my tests to pass for the file ListExamples.java. The output makes me believe that the problem has something to do with the structure of the merged list. I'm guessing the problem could lie on either the lists are not merging as they should be or the merged list is not sorted correctly but I'm not entirely sure.
+> Hi! I'm having some trouble in getting my tests to pass for the file `ListExamples.java`. The output makes me believe that the problem has something to do with the structure of the merged list. I'm guessing the problem could lie on either the lists are not merging as they should be or the merged list is not sorted correctly but I'm not entirely sure.
 > 
 >  ![Debug Symptom Image](lab5-symptom.png)
 
@@ -14,7 +14,7 @@ ___TA___
 
 ___Student___
 
-> After closely analyzing the output, for `testMerge1()` the first element of the merged list should've been the first element ("a") from `list2` but instead it was the first element from `list1` ("x") and similarily for `testMerge2()`, the failure resulted from a difference in the fourth element of the merged list that should've been the first element ("c") from `list2` but instead it was second element of `list2` ("d"). This caused me to believe that the bug skips the next element in `list2` by incrementing `index2` in `merge()`. This led to missing elements from `list2` in the final merged list. I was then able fix the bug in `merge()` so that all elements from `list2` are in the final merged list and all my tests were able to pass!
+> After closely analyzing the output, for `testMerge1()` the first element of the merged list should've been the first element ("a") from `list2` but instead it was the first element from `list1` ("x") and similarily for `testMerge2()`, the failure resulted from a difference in the fourth element of the merged list that should've been the first element ("c") from `list2` but instead it was second element of `list2` ("d"). This caused me to believe that the bug specifically impacted `list2` -  it skiped the next element in `list2` by incrementing `index2` in `merge()`. This led to missing elements from `list2` in the final merged list. I was then able fix the bug in `merge()` so that all elements from `list2` are in the final merged list and all my tests were able to pass!
 > 
 >  ![Fix Bug Image](lab5-fix.png)
 
