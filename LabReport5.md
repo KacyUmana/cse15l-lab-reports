@@ -10,7 +10,7 @@ ___Student___
 
 ___TA___
 
-> Carefully look at the error output in your terminal when you ran your tests - specifically what was expected versus what the result actually was. Is there anything in your merge function code that might've led to a disruption in how the list may be sorted?
+> Carefully look at the error output in your terminal when you ran your tests and use that as a guide to figure out what might be wrong. What was your expected result versus what the outcome actually was and is there anything in your code that might've led to a disruption in how the list may be sorted?
 
 ___Student___
 
