@@ -136,3 +136,5 @@ Bug fix: The elements in `list2` need to be added to the result when the corresp
 ---
 
 ## Part 2: Reflection
+
+The second half of this quarter was my first time working with bash script.
